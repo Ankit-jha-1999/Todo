@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.todo-app {
+  width: 30%;
+  margin: 5rem auto;
+  box-shadow: 0.1rem 0.5rem 0.5rem rgba(0, 0, 0, 0.275);
+  padding-bottom: 0.2rem;
+  max-height: 27.28rem;
+  overflow-y: auto;
+}
+
+.main-heading {
+  text-align: center;
+  padding: 0.8rem 0;
+  font-size: 1.2rem;
+  font-weight: lighter;
+  color: rgba(0, 0, 0, 0.454);
+}
+
+.input-feild {
+  text-align: center;
+  padding: 0.5rem 0;
+}
+
+.text {
+  width: 60%;
+  padding: 0.5rem 0 0.5rem 0.4rem;
+  border-radius: 1rem 0 0 1rem;
+  border-right: none;
+  border-color: rgb(178, 172, 172);
+  font-weight: lighter;
+  color: rgba(0, 0, 0, 0.666);
+}
+
+.text:focus {
+  outline: none;
+}
+
+.btn {
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  background-color: rgb(17, 241, 17);
+  color: white;
+  border-radius: 0 1rem 1rem 0;
+  border-color: grey;
+  cursor: pointer;
+  border-left-color: rgb(197, 189, 189);
+}
+
+.btn:focus {
+  outline: none;
+}

@@ -1,0 +1,35 @@
+.list {
+  list-style-type: none;
+  color: rgba(0, 0, 0, 0.583);
+}
+
+.task-list {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5rem;
+  padding: 0.5rem 0.6rem;
+  font-size: 1.2rem;
+  color: rgb(4, 185, 246);
+  text-transform: capitalize;
+  background-color: rgb(237, 234, 234);
+  margin: 0.6rem;
+}
+
+.del-btn {
+  font-size: 1.1rem;
+  border: none;
+  cursor: pointer;
+  margin-left: 0.8rem;
+  margin-right: 0.3rem;
+  color: rgb(239, 42, 42);
+}
+
+i {
+  color: rgb(159, 225, 58);
+  cursor: pointer;
+}
+
+.circle {
+  margin-right: 0.8rem;
+  color: skyblue;
+}
